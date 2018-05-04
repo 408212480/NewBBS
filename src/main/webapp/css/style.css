@@ -207,7 +207,7 @@ A:active {
     background-color : #eee;
 }
 .jive-infobox LI {
-    list-style-image : url(images/arrow-bullet-10x10.gif);
+    list-style-image : url(../images/arrow-bullet-10x10.gif);
     margin-left : 2em;
 }
 .jive-infobox TD, .jive-infobox TH {
@@ -700,7 +700,7 @@ A:active {
     padding-right : 3px;
 }
 #jive-support-fp .jive-forum-list LI {
-    list-style-image: url("images/unread-16x16.gif");
+    list-style-image: url("../images/unread-16x16.gif");
 }
 #jive-support-fp .jive-cat-list {
     list-style-type : none;
@@ -708,17 +708,17 @@ A:active {
     margin : 0;
 }
 #jive-support-fp .jive-cat-list LI {
-    background: url("images/category-16x16.gif") left top no-repeat;
+    background: url("../images/category-16x16.gif") left top no-repeat;
     padding : 0 0 0.75em 20px;
 }
 #jive-support-fp .jive-read {
-    background: url("images/read-16x16.gif") left top no-repeat !important;
+    background: url("../images/read-16x16.gif") left top no-repeat !important;
 }
 #jive-support-fp .jive-unread {
-    background: url("images/unread-16x16.gif") left top no-repeat !important;
+    background: url("../images/unread-16x16.gif") left top no-repeat !important;
 }
 #jive-support-fp .jive-updated {
-    background: url("images/updated-16x16.gif") left top no-repeat !important;
+    background: url("../images/updated-16x16.gif") left top no-repeat !important;
 }
 #jive-support-fp .jive-none {
     background : none !important;
@@ -810,6 +810,7 @@ A:active {
 
 #jive-forumpage .jive-search-form FORM {
     display : inline;
+    position: relative;
 }
 
 /* --------------------------------------------- */

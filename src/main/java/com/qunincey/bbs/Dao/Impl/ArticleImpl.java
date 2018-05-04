@@ -125,7 +125,7 @@ public class ArticleImpl implements article {
         return Addlist;
     }
 
-    @Override
+
     public boolean insertArticle(Article article) {
         Connection conn=null;
         PreparedStatement pstmt=null;
@@ -155,7 +155,7 @@ public class ArticleImpl implements article {
     }
 
 //    插入主题
-    @Override
+
     public boolean publishNew(Article article) {
         Connection conn=null;
         PreparedStatement preparedStatement=null;
@@ -203,7 +203,7 @@ public class ArticleImpl implements article {
     }
 
 //    查找所有的帖子的数量
-    @Override
+
     public int findCountByID(int id) {
         Connection conn=null;
         PreparedStatement stme=null;
@@ -240,7 +240,7 @@ public class ArticleImpl implements article {
 
         return findRArticle(addlist,rootid,null);
     }
-    @Override
+
     public List<Article> findRArticle(List<Article> addlist, int rootid, Page page) {
 
         String getRArticle=" select * from article where rootid= ? limit ?,? ";

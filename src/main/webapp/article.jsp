@@ -6,9 +6,9 @@
 <head>
 <title>Java|Java世界_中文论坛|ChinaJavaWorld技术论坛 : Java语言*初级版</title>
 <meta http-equiv="content-type" content="text/html; charset=GBK">
-<link rel="stylesheet" type="text/css" href="css/style.css" title="Integrated Styles">
+  <link rel="stylesheet" type="text/css" href="css/style.css" title="Integrated Styles">
+  <link rel="stylesheet" type="text/css" href="css/HomePage.css">
 <script language="JavaScript" type="text/javascript" src="js/global.js"></script>
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bbs.chinajavaworld.com/rss/rssmessages.jspa?forumID=20">
 <script language="JavaScript" type="text/javascript" src="js/common.js"></script>
   <script type="text/javascript" src="js/paging.js"></script>
 </head>
@@ -28,12 +28,17 @@
     <tbody>
       <tr valign="top">
         <td width="98%"><p class="jive-breadcrumbs">论坛: Java语言*初级版
-            (模仿)</p>
+            (模仿)
+        <a href="index.html"></a> </p>
           <p class="jive-description"> 探讨Java语言基础知识,基本语法等 大家一起交流 共同提高！谢绝任何形式的广告 </p>
           </td>
       </tr>
     </tbody>
   </table>
+  <div class="login">
+    <a href="lo_gin.html">登陆</a>
+    <a href="lo_gin.html">注册</a>
+  </div>
   <div class="jive-buttons">
     <table summary="Buttons" border="0" cellpadding="0" cellspacing="0">
       <tbody>

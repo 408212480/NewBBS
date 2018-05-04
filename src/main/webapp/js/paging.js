@@ -1,3 +1,7 @@
+/*
+* 分页js
+* */
+
 function getPage(pno) {
 //            count代表总共的数据数目
     var countValue=document.getElementById("count").innerHTML;
@@ -30,3 +34,63 @@ function getPage(pno) {
 
 
 }
+/*
+* 表单验证
+* */
+$(function () {
+    $("#login").validate({
+        rules:{
+            username:{
+                required:true
+            },
+            password:{
+                required:true,
+                number:true
+            }
+        },
+        messages:{
+            username:{
+                required:"用户名不能为空!"
+            },
+            password:{
+                required:"密码不能为空!",
+                number:"密码必须是整数!"
+            }
+        },
+        errorElement:"label"
+    })
+    $("#registered").validate({
+        rules:{
+            username:{
+                required:true
+            },
+            password:{
+                required:true
+            },
+            repassword:{
+                required:true,
+                equalTo:"[name='password']"
+            },
+            email:{
+                required:true,
+                email:true
+            }
+
+        }
+    })
+});
+
+/*
+* 登陆界面切换
+* */
+function showchange(object) {
+    var $name=$(object).attr("id");
+    if ($name=="login_button"){
+        $("#registered").css("display","none");
+        $("#login").css("display","block");
+    }else if ($name=="register_button"){
+        $("#login").css("display","none");
+        $("#registered").css("display","block");
+    }
+}
+

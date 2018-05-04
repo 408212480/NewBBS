@@ -1,0 +1,13 @@
+/*
+登陆页面样式和登陆按钮样式
+*/
+
+/*登陆按钮*/
+.login{
+    position: absolute;
+    right: 70px;
+    margin-top: -15px;
+}
+.login a{
+    display: inline-block;
+}
